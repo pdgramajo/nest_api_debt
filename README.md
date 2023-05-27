@@ -26,8 +26,13 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-## Installation
+## Database
 
+this command is to start the containers for the mondo db and the mongo manager
+```bash
+$ docker compose up -d
+```
+## Installation
 ```bash
 $ npm install
 ```
